@@ -5,6 +5,12 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
+for (let i = 0; i < names.length; i++) {
+    // console.log (`${names[i]}je`);
+    // Backticks(``) kun je strings aan elkaar koppelen en interpoleren, zodat onze code veel schoner is.
+
+    console.log(names[i] + "je");
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -18,27 +24,7 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // Schrijf een script dat ieder getal in bovenstaande array met 3 vermenigvuldigd.
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
-
-const numbers = [2, 4, 5, 29, 38];
-
-// Verwachtte uitkomsten:
-// Vóór het script zie je de originele waardes:
-// console.log(numbers) geeft: [2, 4, 5, 29, 38];
-// Na jouw script zie je de aangepaste waardes:
-// console.log(numbers) geeft: [ 6, 12, 15, 87, 114 ];
+//
 
 
-// ==========================================
-// Opdracht 3
-// Schrijf een script dat voor de maat van ieder vierkant in onderstaande array het volume uitrekent.
-// Het volume is lengte x breedte x hoogte
-// Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
-// ==========================================
 
-const squares = [30, 2, 8, 24, 11];
-
-// Verwachtte uitkomsten:
-// Vóór het script zie je de originele waardes:
-// console.log(numbers) geeft: [30, 2, 8, 24, 11];
-// Na jouw script zie je de aangepaste waardes:
-// console.log(numbers) geeft: [27000, 8, 512, 13824, 1331];
